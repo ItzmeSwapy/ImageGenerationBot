@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1658</width>
-    <height>1020</height>
+    <width>1727</width>
+    <height>999</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -157,6 +157,15 @@
        </color>
       </brush>
      </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="NoBrush">
+       <color alpha="128">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
     </active>
     <inactive>
      <colorrole role="WindowText">
@@ -291,6 +300,15 @@
         <red>0</red>
         <green>0</green>
         <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="NoBrush">
+       <color alpha="128">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
        </color>
       </brush>
      </colorrole>
@@ -431,6 +449,15 @@
        </color>
       </brush>
      </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="NoBrush">
+       <color alpha="128">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
     </disabled>
    </palette>
   </property>
@@ -456,9 +483,9 @@
    <widget class="QLabel" name="label_0">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>10</y>
-      <width>351</width>
+      <x>40</x>
+      <y>20</y>
+      <width>411</width>
       <height>31</height>
      </rect>
     </property>
@@ -485,8 +512,8 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>80</y>
+      <x>40</x>
+      <y>70</y>
       <width>451</width>
       <height>21</height>
      </rect>
@@ -505,9 +532,9 @@
     <property name="geometry">
      <rect>
       <x>1110</x>
-      <y>80</y>
-      <width>141</width>
-      <height>16</height>
+      <y>100</y>
+      <width>151</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -554,8 +581,8 @@
    <widget class="QLabel" name="label_15">
     <property name="geometry">
      <rect>
-      <x>950</x>
-      <y>80</y>
+      <x>960</x>
+      <y>100</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -580,7 +607,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>170</y>
+      <y>140</y>
       <width>231</width>
       <height>31</height>
      </rect>
@@ -598,9 +625,9 @@
    <widget class="QLabel" name="len">
     <property name="geometry">
      <rect>
-      <x>980</x>
-      <y>170</y>
-      <width>20</width>
+      <x>970</x>
+      <y>140</y>
+      <width>51</width>
       <height>21</height>
      </rect>
     </property>
@@ -614,41 +641,21 @@
      <string>0</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>70</y>
-      <width>131</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <italic>false</italic>
-      <bold>true</bold>
-      <underline>true</underline>
-     </font>
-    </property>
-    <property name="text">
-     <string>Input</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="mainPlaceholder">
     <property name="geometry">
      <rect>
-      <x>1050</x>
-      <y>170</y>
+      <x>1030</x>
+      <y>140</y>
       <width>601</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -659,7 +666,7 @@
     <property name="geometry">
      <rect>
       <x>41</x>
-      <y>254</y>
+      <y>230</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -678,7 +685,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>680</y>
+      <y>600</y>
       <width>51</width>
       <height>31</height>
      </rect>
@@ -705,8 +712,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>260</y>
+      <x>210</x>
+      <y>230</y>
       <width>51</width>
       <height>29</height>
      </rect>
@@ -727,9 +734,9 @@
    <widget class="QLabel" name="len_3">
     <property name="geometry">
      <rect>
-      <x>980</x>
-      <y>347</y>
-      <width>16</width>
+      <x>970</x>
+      <y>317</y>
+      <width>51</width>
       <height>16</height>
      </rect>
     </property>
@@ -747,7 +754,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>730</y>
+      <y>650</y>
       <width>171</width>
       <height>21</height>
      </rect>
@@ -768,8 +775,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>730</y>
+      <x>210</x>
+      <y>650</y>
       <width>51</width>
       <height>29</height>
      </rect>
@@ -790,9 +797,9 @@
    <widget class="QLabel" name="len_2">
     <property name="geometry">
      <rect>
-      <x>980</x>
-      <y>250</y>
-      <width>21</width>
+      <x>970</x>
+      <y>220</y>
+      <width>51</width>
       <height>21</height>
      </rect>
     </property>
@@ -809,16 +816,18 @@
    <widget class="QLabel" name="outroPlaceholder">
     <property name="geometry">
      <rect>
-      <x>1052</x>
-      <y>244</y>
+      <x>1030</x>
+      <y>214</y>
       <width>591</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -829,7 +838,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>308</y>
+      <y>280</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -854,7 +863,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>880</y>
+      <y>800</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -873,7 +882,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>370</y>
+      <y>340</y>
       <width>181</width>
       <height>21</height>
      </rect>
@@ -894,8 +903,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>880</y>
+      <x>210</x>
+      <y>800</y>
       <width>51</width>
       <height>29</height>
      </rect>
@@ -919,8 +928,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>370</y>
+      <x>210</x>
+      <y>340</y>
       <width>51</width>
       <height>29</height>
      </rect>
@@ -941,16 +950,18 @@
    <widget class="QLabel" name="bodyPlaceholder">
     <property name="geometry">
      <rect>
-      <x>1050</x>
-      <y>337</y>
+      <x>1030</x>
+      <y>307</y>
       <width>581</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -960,16 +971,18 @@
    <widget class="QLabel" name="musicPlaceholder">
     <property name="geometry">
      <rect>
-      <x>1050</x>
-      <y>700</y>
+      <x>1030</x>
+      <y>620</y>
       <width>601</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -982,8 +995,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>800</y>
+      <x>210</x>
+      <y>720</y>
       <width>51</width>
       <height>29</height>
      </rect>
@@ -1005,7 +1018,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>780</y>
+      <y>700</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -1029,9 +1042,9 @@
    <widget class="QLabel" name="len_5">
     <property name="geometry">
      <rect>
-      <x>980</x>
-      <y>720</y>
-      <width>16</width>
+      <x>970</x>
+      <y>640</y>
+      <width>51</width>
       <height>16</height>
      </rect>
     </property>
@@ -1049,7 +1062,7 @@
     <property name="geometry">
      <rect>
       <x>41</x>
-      <y>807</y>
+      <y>727</y>
       <width>151</width>
       <height>21</height>
      </rect>
@@ -1068,7 +1081,7 @@
     <property name="geometry">
      <rect>
       <x>671</x>
-      <y>981</y>
+      <y>900</y>
       <width>48</width>
       <height>16</height>
      </rect>
@@ -1089,16 +1102,18 @@
    <widget class="QLabel" name="fontsPlaceholder">
     <property name="geometry">
      <rect>
-      <x>1050</x>
-      <y>790</y>
+      <x>1030</x>
+      <y>710</y>
       <width>721</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -1109,7 +1124,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>910</y>
+      <y>830</y>
       <width>1335</width>
       <height>16</height>
      </rect>
@@ -1130,7 +1145,7 @@
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>930</y>
+      <y>850</y>
       <width>121</width>
       <height>31</height>
      </rect>
@@ -1150,7 +1165,7 @@
     <property name="geometry">
      <rect>
       <x>725</x>
-      <y>981</y>
+      <y>900</y>
       <width>341</width>
       <height>16</height>
      </rect>
@@ -1169,7 +1184,7 @@
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>940</y>
+      <y>860</y>
       <width>81</width>
       <height>16</height>
      </rect>
@@ -1190,9 +1205,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>930</y>
-      <width>181</width>
+      <x>400</x>
+      <y>850</y>
+      <width>161</width>
       <height>31</height>
      </rect>
     </property>
@@ -1209,8 +1224,8 @@
    <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>320</y>
+      <x>100</x>
+      <y>290</y>
       <width>101</width>
       <height>18</height>
      </rect>
@@ -1228,16 +1243,18 @@
    <widget class="QLabel" name="outputPlaceholder">
     <property name="geometry">
      <rect>
-      <x>1050</x>
-      <y>860</y>
+      <x>1030</x>
+      <y>780</y>
       <width>601</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -1250,8 +1267,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>170</y>
+      <x>210</x>
+      <y>140</y>
       <width>51</width>
       <height>29</height>
      </rect>
@@ -1272,8 +1289,8 @@
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>347</y>
+      <x>320</x>
+      <y>317</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -1310,9 +1327,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>970</y>
-      <width>181</width>
+      <x>400</x>
+      <y>890</y>
+      <width>161</width>
       <height>31</height>
      </rect>
     </property>
@@ -1333,7 +1350,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>940</y>
+      <y>860</y>
       <width>591</width>
       <height>23</height>
      </rect>
@@ -1352,7 +1369,7 @@
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>940</y>
+      <y>860</y>
       <width>161</width>
       <height>21</height>
      </rect>
@@ -1371,8 +1388,8 @@
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>317</y>
+      <x>320</x>
+      <y>287</y>
       <width>121</width>
       <height>19</height>
      </rect>
@@ -1390,14 +1407,14 @@
      <string notr="true">color: red;</string>
     </property>
     <property name="text">
-     <string>Spintax Position</string>
+     <string>Text Position</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_20">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>230</y>
+      <x>320</x>
+      <y>200</y>
       <width>121</width>
       <height>19</height>
      </rect>
@@ -1421,8 +1438,8 @@
    <widget class="QComboBox" name="comboBox_2">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>260</y>
+      <x>320</x>
+      <y>230</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -1456,10 +1473,10 @@
    <widget class="Line" name="line_2">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>190</y>
+      <x>280</x>
+      <y>120</y>
       <width>20</width>
-      <height>731</height>
+      <height>711</height>
      </rect>
     </property>
     <property name="font">
@@ -1475,8 +1492,8 @@
    <widget class="Line" name="line_5">
     <property name="geometry">
      <rect>
-      <x>1000</x>
-      <y>220</y>
+      <x>1010</x>
+      <y>130</y>
       <width>20</width>
       <height>701</height>
      </rect>
@@ -1494,8 +1511,8 @@
    <widget class="QCheckBox" name="checkBox_2">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>690</y>
+      <x>90</x>
+      <y>610</y>
       <width>101</width>
       <height>18</height>
      </rect>
@@ -1513,10 +1530,10 @@
    <widget class="QDial" name="dial">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>670</y>
+      <x>380</x>
+      <y>600</y>
       <width>81</width>
-      <height>71</height>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
@@ -1532,9 +1549,9 @@
    <widget class="QLabel" name="len_4">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>690</y>
-      <width>31</width>
+      <x>440</x>
+      <y>610</y>
+      <width>41</width>
       <height>31</height>
      </rect>
     </property>
@@ -1566,9 +1583,9 @@
    <widget class="QLabel" name="label_21">
     <property name="geometry">
      <rect>
-      <x>700</x>
-      <y>317</y>
-      <width>91</width>
+      <x>740</x>
+      <y>290</y>
+      <width>81</width>
       <height>19</height>
      </rect>
     </property>
@@ -1591,8 +1608,8 @@
    <widget class="QLabel" name="label_22">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>230</y>
+      <x>540</x>
+      <y>200</y>
       <width>71</width>
       <height>19</height>
      </rect>
@@ -1616,8 +1633,8 @@
    <widget class="QSpinBox" name="spinBox_2">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>260</y>
+      <x>540</x>
+      <y>230</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -1647,7 +1664,7 @@
     <property name="geometry">
      <rect>
       <x>950</x>
-      <y>220</y>
+      <y>130</y>
       <width>20</width>
       <height>701</height>
      </rect>
@@ -1665,8 +1682,8 @@
    <widget class="QLabel" name="label_30">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>680</y>
+      <x>320</x>
+      <y>600</y>
       <width>61</width>
       <height>51</height>
      </rect>
@@ -1690,8 +1707,8 @@
    <widget class="QCheckBox" name="checkBox_4">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>260</y>
+      <x>100</x>
+      <y>200</y>
       <width>101</width>
       <height>18</height>
      </rect>
@@ -1709,8 +1726,8 @@
    <widget class="QSpinBox" name="spinBox_7">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>347</y>
+      <x>440</x>
+      <y>317</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -1736,9 +1753,9 @@
    <widget class="QLabel" name="label_32">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>317</y>
-      <width>91</width>
+      <x>440</x>
+      <y>287</y>
+      <width>61</width>
       <height>19</height>
      </rect>
     </property>
@@ -1755,15 +1772,15 @@
      <string notr="true">color: red;</string>
     </property>
     <property name="text">
-     <string>Spintax Size</string>
+     <string>Text Size</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_5">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>150</y>
-      <width>201</width>
+      <x>320</x>
+      <y>120</y>
+      <width>111</width>
       <height>61</height>
      </rect>
     </property>
@@ -1781,7 +1798,7 @@
     <property name="geometry">
      <rect>
       <x>710</x>
-      <y>230</y>
+      <y>200</y>
       <width>81</width>
       <height>19</height>
      </rect>
@@ -1805,8 +1822,8 @@
    <widget class="QLabel" name="label_39">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>170</y>
+      <x>510</x>
+      <y>140</y>
       <width>171</width>
       <height>19</height>
      </rect>
@@ -1830,8 +1847,8 @@
    <widget class="QLabel" name="len_7">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>170</y>
+      <x>680</x>
+      <y>140</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -1860,8 +1877,8 @@
    <widget class="QLabel" name="label_40">
     <property name="geometry">
      <rect>
-      <x>830</x>
-      <y>170</y>
+      <x>750</x>
+      <y>140</y>
       <width>41</width>
       <height>19</height>
      </rect>
@@ -1885,7 +1902,7 @@
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>210</y>
+      <y>180</y>
       <width>1571</width>
       <height>16</height>
      </rect>
@@ -1898,7 +1915,7 @@
     <property name="geometry">
      <rect>
       <x>880</x>
-      <y>260</y>
+      <y>230</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -1922,7 +1939,7 @@
     <property name="geometry">
      <rect>
       <x>910</x>
-      <y>260</y>
+      <y>230</y>
       <width>41</width>
       <height>21</height>
      </rect>
@@ -1946,7 +1963,7 @@
     <property name="geometry">
      <rect>
       <x>740</x>
-      <y>260</y>
+      <y>230</y>
       <width>41</width>
       <height>21</height>
      </rect>
@@ -1970,7 +1987,7 @@
     <property name="geometry">
      <rect>
       <x>800</x>
-      <y>260</y>
+      <y>230</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -1994,7 +2011,7 @@
     <property name="geometry">
      <rect>
       <x>820</x>
-      <y>260</y>
+      <y>230</y>
       <width>41</width>
       <height>21</height>
      </rect>
@@ -2018,7 +2035,7 @@
     <property name="geometry">
      <rect>
       <x>710</x>
-      <y>260</y>
+      <y>230</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -2041,8 +2058,8 @@
    <widget class="QSpinBox" name="spinBox_12">
     <property name="geometry">
      <rect>
-      <x>800</x>
-      <y>350</y>
+      <x>900</x>
+      <y>320</y>
       <width>51</width>
       <height>21</height>
      </rect>
@@ -2065,8 +2082,8 @@
    <widget class="QSpinBox" name="spinBox_13">
     <property name="geometry">
      <rect>
-      <x>710</x>
-      <y>350</y>
+      <x>810</x>
+      <y>320</y>
       <width>51</width>
       <height>21</height>
      </rect>
@@ -2089,8 +2106,8 @@
    <widget class="QSpinBox" name="spinBox_14">
     <property name="geometry">
      <rect>
-      <x>900</x>
-      <y>347</y>
+      <x>810</x>
+      <y>360</y>
       <width>51</width>
       <height>21</height>
      </rect>
@@ -2113,8 +2130,8 @@
    <widget class="QLabel" name="label_42">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>350</y>
+      <x>870</x>
+      <y>320</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -2137,8 +2154,8 @@
    <widget class="QLabel" name="label_43">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>347</y>
+      <x>770</x>
+      <y>360</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -2161,8 +2178,8 @@
    <widget class="QLabel" name="label_44">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>350</y>
+      <x>770</x>
+      <y>320</y>
       <width>31</width>
       <height>21</height>
      </rect>
@@ -2186,7 +2203,7 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>850</y>
+      <y>770</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -2211,7 +2228,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>300</y>
+      <y>270</y>
       <width>1571</width>
       <height>16</height>
      </rect>
@@ -2224,7 +2241,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>450</y>
+      <y>410</y>
       <width>1571</width>
       <height>16</height>
      </rect>
@@ -2236,8 +2253,8 @@
    <widget class="QComboBox" name="comboBox_6">
     <property name="geometry">
      <rect>
-      <x>800</x>
-      <y>320</y>
+      <x>830</x>
+      <y>290</y>
       <width>121</width>
       <height>21</height>
      </rect>
@@ -2272,7 +2289,7 @@
     <property name="geometry">
      <rect>
       <x>790</x>
-      <y>230</y>
+      <y>200</y>
       <width>121</width>
       <height>21</height>
      </rect>
@@ -2307,8 +2324,8 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>500</y>
-      <width>1461</width>
+      <y>430</y>
+      <width>1681</width>
       <height>151</height>
      </rect>
     </property>
@@ -2326,8 +2343,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QSpinBox" name="spinBox_15">
       <property name="geometry">
        <rect>
-        <x>740</x>
-        <y>40</y>
+        <x>930</x>
+        <y>50</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -2350,8 +2367,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_33">
       <property name="geometry">
        <rect>
-        <x>640</x>
-        <y>10</y>
+        <x>830</x>
+        <y>20</y>
         <width>121</width>
         <height>19</height>
        </rect>
@@ -2375,8 +2392,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QSpinBox" name="spinBox_16">
       <property name="geometry">
        <rect>
-        <x>660</x>
-        <y>40</y>
+        <x>850</x>
+        <y>50</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -2399,7 +2416,7 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QSpinBox" name="spinBox_8">
       <property name="geometry">
        <rect>
-        <x>550</x>
+        <x>700</x>
         <y>40</y>
         <width>51</width>
         <height>21</height>
@@ -2423,7 +2440,7 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_29">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>380</x>
         <y>40</y>
         <width>21</width>
         <height>20</height>
@@ -2448,8 +2465,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QComboBox" name="comboBox_3">
       <property name="geometry">
        <rect>
-        <x>1190</x>
-        <y>30</y>
+        <x>1420</x>
+        <y>40</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -2503,9 +2520,9 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_34">
       <property name="geometry">
        <rect>
-        <x>540</x>
-        <y>10</y>
-        <width>91</width>
+        <x>620</x>
+        <y>40</y>
+        <width>71</width>
         <height>19</height>
        </rect>
       </property>
@@ -2553,8 +2570,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_46">
       <property name="geometry">
        <rect>
-        <x>720</x>
-        <y>40</y>
+        <x>910</x>
+        <y>50</y>
         <width>21</width>
         <height>21</height>
        </rect>
@@ -2641,8 +2658,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_49">
       <property name="geometry">
        <rect>
-        <x>920</x>
-        <y>30</y>
+        <x>1150</x>
+        <y>40</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -2679,14 +2696,14 @@ background-color: rgb(255, 255, 255);</string>
        </font>
       </property>
       <property name="text">
-       <string>Pop Up Test Directory</string>
+       <string>Pop Up Test Input</string>
       </property>
      </widget>
      <widget class="QCheckBox" name="checkBox_3">
       <property name="geometry">
        <rect>
-        <x>150</x>
-        <y>30</y>
+        <x>10</x>
+        <y>20</y>
         <width>101</width>
         <height>18</height>
        </rect>
@@ -2704,8 +2721,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QComboBox" name="comboBox_5">
       <property name="geometry">
        <rect>
-        <x>750</x>
-        <y>10</y>
+        <x>940</x>
+        <y>20</y>
         <width>121</width>
         <height>21</height>
        </rect>
@@ -2739,8 +2756,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_47">
       <property name="geometry">
        <rect>
-        <x>630</x>
-        <y>40</y>
+        <x>820</x>
+        <y>50</y>
         <width>31</width>
         <height>21</height>
        </rect>
@@ -2763,8 +2780,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_35">
       <property name="geometry">
        <rect>
-        <x>1060</x>
-        <y>30</y>
+        <x>1290</x>
+        <y>40</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -2788,8 +2805,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QComboBox" name="comboBox_4">
       <property name="geometry">
        <rect>
-        <x>1000</x>
-        <y>30</y>
+        <x>1230</x>
+        <y>40</y>
         <width>51</width>
         <height>31</height>
        </rect>
@@ -2838,7 +2855,7 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_25">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>410</x>
         <y>10</y>
         <width>101</width>
         <height>19</height>
@@ -2863,8 +2880,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_48">
       <property name="geometry">
        <rect>
-        <x>810</x>
-        <y>40</y>
+        <x>1000</x>
+        <y>50</y>
         <width>31</width>
         <height>21</height>
        </rect>
@@ -2887,8 +2904,8 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QSpinBox" name="spinBox_17">
       <property name="geometry">
        <rect>
-        <x>840</x>
-        <y>40</y>
+        <x>1030</x>
+        <y>50</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -2912,24 +2929,24 @@ background-color: rgb(255, 255, 255);</string>
       <property name="geometry">
        <rect>
         <x>150</x>
-        <y>60</y>
+        <y>10</y>
         <width>201</width>
-        <height>41</height>
+        <height>111</height>
        </rect>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.875pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Add Spintax Here&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add Spintax Here&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_103">
       <property name="geometry">
        <rect>
-        <x>1270</x>
-        <y>30</y>
+        <x>1500</x>
+        <y>40</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -2953,8 +2970,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_23">
       <property name="geometry">
        <rect>
-        <x>1360</x>
-        <y>30</y>
+        <x>1590</x>
+        <y>40</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -3008,9 +3025,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="pushButton_9">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>390</x>
         <y>70</y>
-        <width>41</width>
+        <width>141</width>
         <height>21</height>
        </rect>
       </property>
@@ -3021,8 +3038,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_176">
       <property name="geometry">
        <rect>
-        <x>430</x>
-        <y>90</y>
+        <x>620</x>
+        <y>80</y>
         <width>61</width>
         <height>20</height>
        </rect>
@@ -3046,8 +3063,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_84">
       <property name="geometry">
        <rect>
-        <x>500</x>
-        <y>90</y>
+        <x>700</x>
+        <y>80</y>
         <width>61</width>
         <height>21</height>
        </rect>
@@ -3081,8 +3098,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_50">
       <property name="geometry">
        <rect>
-        <x>641</x>
-        <y>20</y>
+        <x>840</x>
+        <y>50</y>
         <width>121</width>
         <height>19</height>
        </rect>
@@ -3106,8 +3123,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_18">
       <property name="geometry">
        <rect>
-        <x>741</x>
-        <y>50</y>
+        <x>940</x>
+        <y>80</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -3130,8 +3147,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_19">
       <property name="geometry">
        <rect>
-        <x>661</x>
-        <y>50</y>
+        <x>860</x>
+        <y>80</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -3154,9 +3171,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_20">
       <property name="geometry">
        <rect>
-        <x>551</x>
+        <x>680</x>
         <y>50</y>
-        <width>51</width>
+        <width>61</width>
         <height>21</height>
        </rect>
       </property>
@@ -3178,7 +3195,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_51">
       <property name="geometry">
        <rect>
-        <x>371</x>
+        <x>380</x>
         <y>50</y>
         <width>21</width>
         <height>20</height>
@@ -3203,9 +3220,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_52">
       <property name="geometry">
        <rect>
-        <x>541</x>
-        <y>20</y>
-        <width>91</width>
+        <x>610</x>
+        <y>50</y>
+        <width>61</width>
         <height>19</height>
        </rect>
       </property>
@@ -3253,8 +3270,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_54">
       <property name="geometry">
        <rect>
-        <x>721</x>
-        <y>50</y>
+        <x>920</x>
+        <y>80</y>
         <width>21</width>
         <height>21</height>
        </rect>
@@ -3342,7 +3359,7 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>11</x>
-        <y>70</y>
+        <y>60</y>
         <width>131</width>
         <height>21</height>
        </rect>
@@ -3360,8 +3377,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_9">
       <property name="geometry">
        <rect>
-        <x>751</x>
-        <y>20</y>
+        <x>950</x>
+        <y>50</y>
         <width>121</width>
         <height>21</height>
        </rect>
@@ -3395,8 +3412,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QCheckBox" name="checkBox_6">
       <property name="geometry">
        <rect>
-        <x>139</x>
-        <y>40</y>
+        <x>10</x>
+        <y>20</y>
         <width>101</width>
         <height>18</height>
        </rect>
@@ -3414,8 +3431,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_56">
       <property name="geometry">
        <rect>
-        <x>631</x>
-        <y>50</y>
+        <x>830</x>
+        <y>80</y>
         <width>31</width>
         <height>21</height>
        </rect>
@@ -3438,7 +3455,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_27">
       <property name="geometry">
        <rect>
-        <x>371</x>
+        <x>400</x>
         <y>20</y>
         <width>101</width>
         <height>19</height>
@@ -3463,8 +3480,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_58">
       <property name="geometry">
        <rect>
-        <x>811</x>
-        <y>50</y>
+        <x>1010</x>
+        <y>80</y>
         <width>31</width>
         <height>21</height>
        </rect>
@@ -3487,8 +3504,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_23">
       <property name="geometry">
        <rect>
-        <x>841</x>
-        <y>50</y>
+        <x>1040</x>
+        <y>80</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -3512,24 +3529,24 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>139</x>
-        <y>70</y>
+        <y>10</y>
         <width>201</width>
-        <height>41</height>
+        <height>111</height>
        </rect>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.875pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Add Spintax Here&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add Spintax Here&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QComboBox" name="comboBox_33">
       <property name="geometry">
        <rect>
-        <x>1190</x>
-        <y>40</y>
+        <x>1420</x>
+        <y>70</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -3583,8 +3600,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_161">
       <property name="geometry">
        <rect>
-        <x>920</x>
-        <y>40</y>
+        <x>1150</x>
+        <y>70</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -3608,8 +3625,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_34">
       <property name="geometry">
        <rect>
-        <x>1000</x>
-        <y>40</y>
+        <x>1230</x>
+        <y>70</y>
         <width>51</width>
         <height>31</height>
        </rect>
@@ -3658,8 +3675,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_162">
       <property name="geometry">
        <rect>
-        <x>1060</x>
-        <y>40</y>
+        <x>1290</x>
+        <y>70</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -3683,8 +3700,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_35">
       <property name="geometry">
        <rect>
-        <x>1360</x>
-        <y>40</y>
+        <x>1590</x>
+        <y>70</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -3738,8 +3755,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_163">
       <property name="geometry">
        <rect>
-        <x>1270</x>
-        <y>40</y>
+        <x>1500</x>
+        <y>70</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -3765,7 +3782,7 @@ p, li { white-space: pre-wrap; }
        <rect>
         <x>370</x>
         <y>80</y>
-        <width>41</width>
+        <width>161</width>
         <height>21</height>
        </rect>
       </property>
@@ -3776,8 +3793,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_86">
       <property name="geometry">
        <rect>
-        <x>490</x>
-        <y>100</y>
+        <x>679</x>
+        <y>80</y>
         <width>61</width>
         <height>21</height>
        </rect>
@@ -3806,8 +3823,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_178">
       <property name="geometry">
        <rect>
-        <x>420</x>
-        <y>100</y>
+        <x>609</x>
+        <y>80</y>
         <width>61</width>
         <height>20</height>
        </rect>
@@ -3836,8 +3853,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_59">
       <property name="geometry">
        <rect>
-        <x>640</x>
-        <y>20</y>
+        <x>790</x>
+        <y>40</y>
         <width>121</width>
         <height>19</height>
        </rect>
@@ -3861,8 +3878,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_24">
       <property name="geometry">
        <rect>
-        <x>740</x>
-        <y>50</y>
+        <x>880</x>
+        <y>70</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -3885,8 +3902,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_25">
       <property name="geometry">
        <rect>
-        <x>660</x>
-        <y>50</y>
+        <x>800</x>
+        <y>70</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -3909,7 +3926,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_26">
       <property name="geometry">
        <rect>
-        <x>550</x>
+        <x>660</x>
         <y>50</y>
         <width>51</width>
         <height>21</height>
@@ -3958,9 +3975,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_61">
       <property name="geometry">
        <rect>
-        <x>540</x>
-        <y>20</y>
-        <width>91</width>
+        <x>580</x>
+        <y>50</y>
+        <width>71</width>
         <height>19</height>
        </rect>
       </property>
@@ -4008,8 +4025,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_63">
       <property name="geometry">
        <rect>
-        <x>720</x>
-        <y>50</y>
+        <x>860</x>
+        <y>70</y>
         <width>21</width>
         <height>21</height>
        </rect>
@@ -4115,8 +4132,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_12">
       <property name="geometry">
        <rect>
-        <x>750</x>
-        <y>20</y>
+        <x>900</x>
+        <y>40</y>
         <width>121</width>
         <height>21</height>
        </rect>
@@ -4150,7 +4167,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QCheckBox" name="checkBox_7">
       <property name="geometry">
        <rect>
-        <x>130</x>
+        <x>10</x>
         <y>40</y>
         <width>101</width>
         <height>18</height>
@@ -4169,8 +4186,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_65">
       <property name="geometry">
        <rect>
-        <x>630</x>
-        <y>50</y>
+        <x>770</x>
+        <y>70</y>
         <width>31</width>
         <height>21</height>
        </rect>
@@ -4193,7 +4210,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_67">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>400</x>
         <y>20</y>
         <width>101</width>
         <height>19</height>
@@ -4218,8 +4235,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_68">
       <property name="geometry">
        <rect>
-        <x>810</x>
-        <y>50</y>
+        <x>950</x>
+        <y>70</y>
         <width>31</width>
         <height>21</height>
        </rect>
@@ -4242,8 +4259,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_29">
       <property name="geometry">
        <rect>
-        <x>840</x>
-        <y>50</y>
+        <x>980</x>
+        <y>70</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -4267,24 +4284,24 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>130</x>
-        <y>70</y>
+        <y>20</y>
         <width>201</width>
-        <height>41</height>
+        <height>111</height>
        </rect>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.875pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Add Spintax Here&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add Spintax Here&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QComboBox" name="comboBox_36">
       <property name="geometry">
        <rect>
-        <x>1180</x>
-        <y>40</y>
+        <x>1420</x>
+        <y>60</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -4338,8 +4355,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_164">
       <property name="geometry">
        <rect>
-        <x>910</x>
-        <y>40</y>
+        <x>1150</x>
+        <y>60</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -4363,8 +4380,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_37">
       <property name="geometry">
        <rect>
-        <x>990</x>
-        <y>40</y>
+        <x>1230</x>
+        <y>60</y>
         <width>51</width>
         <height>31</height>
        </rect>
@@ -4413,8 +4430,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_165">
       <property name="geometry">
        <rect>
-        <x>1050</x>
-        <y>40</y>
+        <x>1290</x>
+        <y>60</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -4438,8 +4455,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_38">
       <property name="geometry">
        <rect>
-        <x>1350</x>
-        <y>40</y>
+        <x>1590</x>
+        <y>60</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -4493,8 +4510,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_166">
       <property name="geometry">
        <rect>
-        <x>1260</x>
-        <y>40</y>
+        <x>1500</x>
+        <y>60</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -4520,7 +4537,7 @@ p, li { white-space: pre-wrap; }
        <rect>
         <x>370</x>
         <y>80</y>
-        <width>41</width>
+        <width>161</width>
         <height>21</height>
        </rect>
       </property>
@@ -4531,8 +4548,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_87">
       <property name="geometry">
        <rect>
-        <x>490</x>
-        <y>100</y>
+        <x>660</x>
+        <y>80</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -4561,8 +4578,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_179">
       <property name="geometry">
        <rect>
-        <x>420</x>
-        <y>100</y>
+        <x>580</x>
+        <y>80</y>
         <width>61</width>
         <height>20</height>
        </rect>
@@ -4591,9 +4608,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_69">
       <property name="geometry">
        <rect>
-        <x>650</x>
+        <x>810</x>
         <y>20</y>
-        <width>121</width>
+        <width>91</width>
         <height>19</height>
        </rect>
       </property>
@@ -4616,8 +4633,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_30">
       <property name="geometry">
        <rect>
-        <x>750</x>
-        <y>50</y>
+        <x>880</x>
+        <y>60</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -4640,8 +4657,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_31">
       <property name="geometry">
        <rect>
-        <x>670</x>
-        <y>50</y>
+        <x>800</x>
+        <y>60</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -4664,7 +4681,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_32">
       <property name="geometry">
        <rect>
-        <x>560</x>
+        <x>660</x>
         <y>50</y>
         <width>51</width>
         <height>21</height>
@@ -4713,9 +4730,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_71">
       <property name="geometry">
        <rect>
-        <x>550</x>
-        <y>20</y>
-        <width>91</width>
+        <x>580</x>
+        <y>50</y>
+        <width>61</width>
         <height>19</height>
        </rect>
       </property>
@@ -4763,8 +4780,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_73">
       <property name="geometry">
        <rect>
-        <x>730</x>
-        <y>50</y>
+        <x>860</x>
+        <y>60</y>
         <width>21</width>
         <height>21</height>
        </rect>
@@ -4851,7 +4868,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_15">
       <property name="geometry">
        <rect>
-        <x>760</x>
+        <x>910</x>
         <y>20</y>
         <width>121</width>
         <height>21</height>
@@ -4886,8 +4903,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QCheckBox" name="checkBox_8">
       <property name="geometry">
        <rect>
-        <x>130</x>
-        <y>40</y>
+        <x>10</x>
+        <y>20</y>
         <width>101</width>
         <height>18</height>
        </rect>
@@ -4905,8 +4922,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_76">
       <property name="geometry">
        <rect>
-        <x>640</x>
-        <y>50</y>
+        <x>770</x>
+        <y>60</y>
         <width>31</width>
         <height>21</height>
        </rect>
@@ -4929,7 +4946,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_78">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>420</x>
         <y>20</y>
         <width>101</width>
         <height>19</height>
@@ -4954,8 +4971,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_79">
       <property name="geometry">
        <rect>
-        <x>820</x>
-        <y>50</y>
+        <x>950</x>
+        <y>60</y>
         <width>31</width>
         <height>21</height>
        </rect>
@@ -4978,8 +4995,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_35">
       <property name="geometry">
        <rect>
-        <x>850</x>
-        <y>50</y>
+        <x>980</x>
+        <y>60</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -5003,7 +5020,7 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>70</y>
+        <y>60</y>
         <width>111</width>
         <height>21</height>
        </rect>
@@ -5022,24 +5039,24 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>130</x>
-        <y>70</y>
+        <y>10</y>
         <width>201</width>
-        <height>41</height>
+        <height>111</height>
        </rect>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.875pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Add Spintax Here&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add Spintax Here&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QComboBox" name="comboBox_39">
       <property name="geometry">
        <rect>
-        <x>1200</x>
-        <y>40</y>
+        <x>1430</x>
+        <y>50</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -5093,8 +5110,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_167">
       <property name="geometry">
        <rect>
-        <x>930</x>
-        <y>40</y>
+        <x>1160</x>
+        <y>50</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -5118,8 +5135,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_40">
       <property name="geometry">
        <rect>
-        <x>1010</x>
-        <y>40</y>
+        <x>1240</x>
+        <y>50</y>
         <width>51</width>
         <height>31</height>
        </rect>
@@ -5168,8 +5185,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_168">
       <property name="geometry">
        <rect>
-        <x>1070</x>
-        <y>40</y>
+        <x>1300</x>
+        <y>50</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -5193,8 +5210,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_41">
       <property name="geometry">
        <rect>
-        <x>1370</x>
-        <y>40</y>
+        <x>1600</x>
+        <y>50</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -5248,8 +5265,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_169">
       <property name="geometry">
        <rect>
-        <x>1280</x>
-        <y>40</y>
+        <x>1510</x>
+        <y>50</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -5273,9 +5290,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="pushButton_6">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>410</x>
         <y>80</y>
-        <width>41</width>
+        <width>131</width>
         <height>21</height>
        </rect>
       </property>
@@ -5286,8 +5303,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_88">
       <property name="geometry">
        <rect>
-        <x>500</x>
-        <y>100</y>
+        <x>660</x>
+        <y>80</y>
         <width>61</width>
         <height>21</height>
        </rect>
@@ -5316,8 +5333,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_180">
       <property name="geometry">
        <rect>
-        <x>430</x>
-        <y>100</y>
+        <x>580</x>
+        <y>80</y>
         <width>61</width>
         <height>20</height>
        </rect>
@@ -5346,9 +5363,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_80">
       <property name="geometry">
        <rect>
-        <x>640</x>
+        <x>800</x>
         <y>20</y>
-        <width>121</width>
+        <width>91</width>
         <height>19</height>
        </rect>
       </property>
@@ -5371,8 +5388,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_36">
       <property name="geometry">
        <rect>
-        <x>740</x>
-        <y>50</y>
+        <x>860</x>
+        <y>60</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -5395,8 +5412,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_37">
       <property name="geometry">
        <rect>
-        <x>660</x>
-        <y>50</y>
+        <x>780</x>
+        <y>60</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -5419,7 +5436,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_38">
       <property name="geometry">
        <rect>
-        <x>550</x>
+        <x>650</x>
         <y>50</y>
         <width>51</width>
         <height>21</height>
@@ -5443,7 +5460,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_81">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>380</x>
         <y>50</y>
         <width>21</width>
         <height>20</height>
@@ -5468,9 +5485,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_82">
       <property name="geometry">
        <rect>
-        <x>540</x>
-        <y>20</y>
-        <width>91</width>
+        <x>580</x>
+        <y>50</y>
+        <width>61</width>
         <height>19</height>
        </rect>
       </property>
@@ -5518,8 +5535,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_84">
       <property name="geometry">
        <rect>
-        <x>720</x>
-        <y>50</y>
+        <x>840</x>
+        <y>60</y>
         <width>21</width>
         <height>21</height>
        </rect>
@@ -5606,7 +5623,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_18">
       <property name="geometry">
        <rect>
-        <x>750</x>
+        <x>890</x>
         <y>20</y>
         <width>121</width>
         <height>21</height>
@@ -5641,8 +5658,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QCheckBox" name="checkBox_9">
       <property name="geometry">
        <rect>
-        <x>130</x>
-        <y>40</y>
+        <x>10</x>
+        <y>20</y>
         <width>101</width>
         <height>18</height>
        </rect>
@@ -5660,8 +5677,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_87">
       <property name="geometry">
        <rect>
-        <x>630</x>
-        <y>50</y>
+        <x>750</x>
+        <y>60</y>
         <width>31</width>
         <height>21</height>
        </rect>
@@ -5684,7 +5701,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_89">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>410</x>
         <y>20</y>
         <width>101</width>
         <height>19</height>
@@ -5709,8 +5726,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_90">
       <property name="geometry">
        <rect>
-        <x>810</x>
-        <y>50</y>
+        <x>930</x>
+        <y>60</y>
         <width>31</width>
         <height>21</height>
        </rect>
@@ -5733,8 +5750,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_41">
       <property name="geometry">
        <rect>
-        <x>840</x>
-        <y>50</y>
+        <x>960</x>
+        <y>60</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -5758,7 +5775,7 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>70</y>
+        <y>60</y>
         <width>111</width>
         <height>21</height>
        </rect>
@@ -5777,24 +5794,24 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>130</x>
-        <y>70</y>
+        <y>10</y>
         <width>201</width>
-        <height>41</height>
+        <height>111</height>
        </rect>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.875pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Add Spintax Here&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add Spintax Here&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QComboBox" name="comboBox_42">
       <property name="geometry">
        <rect>
-        <x>1180</x>
-        <y>40</y>
+        <x>1410</x>
+        <y>50</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -5848,8 +5865,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_170">
       <property name="geometry">
        <rect>
-        <x>910</x>
-        <y>40</y>
+        <x>1140</x>
+        <y>50</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -5873,8 +5890,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_43">
       <property name="geometry">
        <rect>
-        <x>990</x>
-        <y>40</y>
+        <x>1220</x>
+        <y>50</y>
         <width>51</width>
         <height>31</height>
        </rect>
@@ -5923,8 +5940,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_171">
       <property name="geometry">
        <rect>
-        <x>1050</x>
-        <y>40</y>
+        <x>1280</x>
+        <y>50</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -5948,8 +5965,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_44">
       <property name="geometry">
        <rect>
-        <x>1350</x>
-        <y>40</y>
+        <x>1580</x>
+        <y>50</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -6003,8 +6020,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_172">
       <property name="geometry">
        <rect>
-        <x>1260</x>
-        <y>40</y>
+        <x>1490</x>
+        <y>50</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -6028,9 +6045,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="pushButton_5">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>400</x>
         <y>80</y>
-        <width>41</width>
+        <width>131</width>
         <height>21</height>
        </rect>
       </property>
@@ -6041,9 +6058,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_89">
       <property name="geometry">
        <rect>
-        <x>490</x>
-        <y>100</y>
-        <width>61</width>
+        <x>650</x>
+        <y>80</y>
+        <width>51</width>
         <height>21</height>
        </rect>
       </property>
@@ -6071,8 +6088,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_181">
       <property name="geometry">
        <rect>
-        <x>420</x>
-        <y>100</y>
+        <x>580</x>
+        <y>80</y>
         <width>61</width>
         <height>20</height>
        </rect>
@@ -6101,7 +6118,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_91">
       <property name="geometry">
        <rect>
-        <x>640</x>
+        <x>800</x>
         <y>20</y>
         <width>121</width>
         <height>19</height>
@@ -6126,7 +6143,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_42">
       <property name="geometry">
        <rect>
-        <x>740</x>
+        <x>890</x>
         <y>50</y>
         <width>51</width>
         <height>21</height>
@@ -6150,7 +6167,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_43">
       <property name="geometry">
        <rect>
-        <x>660</x>
+        <x>810</x>
         <y>50</y>
         <width>51</width>
         <height>21</height>
@@ -6174,8 +6191,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_44">
       <property name="geometry">
        <rect>
-        <x>550</x>
-        <y>50</y>
+        <x>670</x>
+        <y>30</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -6223,9 +6240,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_93">
       <property name="geometry">
        <rect>
-        <x>540</x>
-        <y>20</y>
-        <width>91</width>
+        <x>590</x>
+        <y>30</y>
+        <width>71</width>
         <height>19</height>
        </rect>
       </property>
@@ -6273,7 +6290,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_95">
       <property name="geometry">
        <rect>
-        <x>720</x>
+        <x>870</x>
         <y>50</y>
         <width>21</width>
         <height>21</height>
@@ -6361,7 +6378,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_21">
       <property name="geometry">
        <rect>
-        <x>750</x>
+        <x>910</x>
         <y>20</y>
         <width>121</width>
         <height>21</height>
@@ -6396,8 +6413,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QCheckBox" name="checkBox_10">
       <property name="geometry">
        <rect>
-        <x>130</x>
-        <y>40</y>
+        <x>10</x>
+        <y>20</y>
         <width>101</width>
         <height>18</height>
        </rect>
@@ -6415,7 +6432,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_98">
       <property name="geometry">
        <rect>
-        <x>630</x>
+        <x>780</x>
         <y>50</y>
         <width>31</width>
         <height>21</height>
@@ -6439,7 +6456,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_100">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>410</x>
         <y>20</y>
         <width>101</width>
         <height>19</height>
@@ -6464,7 +6481,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_101">
       <property name="geometry">
        <rect>
-        <x>810</x>
+        <x>960</x>
         <y>50</y>
         <width>31</width>
         <height>21</height>
@@ -6488,7 +6505,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_47">
       <property name="geometry">
        <rect>
-        <x>840</x>
+        <x>990</x>
         <y>50</y>
         <width>51</width>
         <height>21</height>
@@ -6513,7 +6530,7 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>70</y>
+        <y>50</y>
         <width>111</width>
         <height>21</height>
        </rect>
@@ -6532,25 +6549,25 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>130</x>
-        <y>70</y>
-        <width>201</width>
-        <height>41</height>
+        <y>20</y>
+        <width>231</width>
+        <height>91</height>
        </rect>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.875pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Add Spintax Here&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add Spintax Here&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_3">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>420</x>
         <y>80</y>
-        <width>41</width>
+        <width>91</width>
         <height>21</height>
        </rect>
       </property>
@@ -6561,7 +6578,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_45">
       <property name="geometry">
        <rect>
-        <x>1180</x>
+        <x>1390</x>
         <y>40</y>
         <width>71</width>
         <height>31</height>
@@ -6616,7 +6633,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_173">
       <property name="geometry">
        <rect>
-        <x>910</x>
+        <x>1120</x>
         <y>40</y>
         <width>81</width>
         <height>31</height>
@@ -6641,7 +6658,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_46">
       <property name="geometry">
        <rect>
-        <x>990</x>
+        <x>1200</x>
         <y>40</y>
         <width>51</width>
         <height>31</height>
@@ -6691,7 +6708,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_174">
       <property name="geometry">
        <rect>
-        <x>1050</x>
+        <x>1260</x>
         <y>40</y>
         <width>121</width>
         <height>31</height>
@@ -6716,7 +6733,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QComboBox" name="comboBox_47">
       <property name="geometry">
        <rect>
-        <x>1350</x>
+        <x>1560</x>
         <y>40</y>
         <width>71</width>
         <height>31</height>
@@ -6771,7 +6788,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_175">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1470</x>
         <y>40</y>
         <width>81</width>
         <height>31</height>
@@ -6796,8 +6813,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QSpinBox" name="spinBox_90">
       <property name="geometry">
        <rect>
-        <x>520</x>
-        <y>100</y>
+        <x>670</x>
+        <y>70</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -6826,8 +6843,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QLabel" name="label_187">
       <property name="geometry">
        <rect>
-        <x>430</x>
-        <y>100</y>
+        <x>590</x>
+        <y>70</y>
         <width>81</width>
         <height>20</height>
        </rect>
@@ -6854,7 +6871,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>460</y>
+      <y>430</y>
       <width>61</width>
       <height>31</height>
      </rect>
@@ -6879,7 +6896,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>660</y>
+      <y>590</y>
       <width>1571</width>
       <height>16</height>
      </rect>
@@ -6889,27 +6906,6 @@ p, li { white-space: pre-wrap; }
     </property>
    </widget>
    <widget class="Line" name="line_6">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>840</y>
-      <width>1335</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_12">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -6930,11 +6926,32 @@ p, li { white-space: pre-wrap; }
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
+   <widget class="Line" name="line_12">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>680</y>
+      <width>1335</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
    <widget class="QLabel" name="label_102">
     <property name="geometry">
      <rect>
       <x>1110</x>
-      <y>980</y>
+      <y>899</y>
       <width>151</width>
       <height>16</height>
      </rect>
@@ -6956,7 +6973,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>1267</x>
-      <y>981</y>
+      <y>900</y>
       <width>41</width>
       <height>16</height>
      </rect>
@@ -6975,7 +6992,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>560</x>
-      <y>920</y>
+      <y>840</y>
       <width>21</width>
       <height>91</height>
      </rect>
@@ -6987,8 +7004,8 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>260</y>
+      <x>420</x>
+      <y>230</y>
       <width>41</width>
       <height>21</height>
      </rect>
@@ -7001,7 +7018,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>970</y>
+      <y>890</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -7021,8 +7038,8 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>980</y>
-      <width>61</width>
+      <y>900</y>
+      <width>81</width>
       <height>21</height>
      </rect>
     </property>
@@ -7050,10 +7067,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QComboBox" name="comboBox_50">
     <property name="geometry">
      <rect>
-      <x>880</x>
-      <y>420</y>
-      <width>71</width>
-      <height>31</height>
+      <x>630</x>
+      <y>350</y>
+      <width>81</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
@@ -7105,10 +7122,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="label_183">
     <property name="geometry">
      <rect>
-      <x>790</x>
-      <y>380</y>
+      <x>540</x>
+      <y>320</y>
       <width>81</width>
-      <height>31</height>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
@@ -7130,10 +7147,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QComboBox" name="comboBox_49">
     <property name="geometry">
      <rect>
-      <x>710</x>
-      <y>380</y>
-      <width>51</width>
-      <height>31</height>
+      <x>630</x>
+      <y>290</y>
+      <width>81</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -7180,10 +7197,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="label_185">
     <property name="geometry">
      <rect>
-      <x>730</x>
-      <y>420</y>
-      <width>141</width>
-      <height>31</height>
+      <x>540</x>
+      <y>350</y>
+      <width>81</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
@@ -7199,16 +7216,16 @@ p, li { white-space: pre-wrap; }
      <string notr="true">color: red;</string>
     </property>
     <property name="text">
-     <string>Background Colour</string>
+     <string>Back Colour</string>
     </property>
    </widget>
    <widget class="QComboBox" name="comboBox_48">
     <property name="geometry">
      <rect>
-      <x>880</x>
-      <y>380</y>
-      <width>71</width>
-      <height>31</height>
+      <x>630</x>
+      <y>320</y>
+      <width>81</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -7260,10 +7277,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="label_184">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>380</y>
+      <x>540</x>
+      <y>290</y>
       <width>71</width>
-      <height>31</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -7285,8 +7302,8 @@ p, li { white-space: pre-wrap; }
    <widget class="QSpinBox" name="spinBox_91">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>380</y>
+      <x>400</x>
+      <y>360</y>
       <width>51</width>
       <height>21</height>
      </rect>
@@ -7315,8 +7332,8 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="label_186">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>380</y>
+      <x>320</x>
+      <y>360</y>
       <width>91</width>
       <height>20</height>
      </rect>
@@ -7337,6 +7354,131 @@ p, li { white-space: pre-wrap; }
      <string>Randomize</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_55">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>190</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;</string>
+    </property>
+    <property name="text">
+     <string>Image</string>
+    </property>
+   </widget>
+   <zorder>line_7</zorder>
+   <zorder>line_5</zorder>
+   <zorder>label_0</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_19</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_15</zorder>
+   <zorder>label_9</zorder>
+   <zorder>len</zorder>
+   <zorder>mainPlaceholder</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_7</zorder>
+   <zorder>imageBtn</zorder>
+   <zorder>len_3</zorder>
+   <zorder>label_18</zorder>
+   <zorder>musicBtn</zorder>
+   <zorder>len_2</zorder>
+   <zorder>outroPlaceholder</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_16</zorder>
+   <zorder>label_3</zorder>
+   <zorder>outputBtn</zorder>
+   <zorder>bodyTextBtn</zorder>
+   <zorder>bodyPlaceholder</zorder>
+   <zorder>musicPlaceholder</zorder>
+   <zorder>fontsBtn</zorder>
+   <zorder>label_13</zorder>
+   <zorder>len_5</zorder>
+   <zorder>label_17</zorder>
+   <zorder>label_14</zorder>
+   <zorder>fontsPlaceholder</zorder>
+   <zorder>line_3</zorder>
+   <zorder>label_6</zorder>
+   <zorder>renderStatusPlaceholder</zorder>
+   <zorder>totalVidsPlaceholder</zorder>
+   <zorder>saveSettingsBtn</zorder>
+   <zorder>checkBox</zorder>
+   <zorder>outputPlaceholder</zorder>
+   <zorder>mainPartBtn</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>renderButton</zorder>
+   <zorder>progressBar</zorder>
+   <zorder>renderStatusPlaceholder_2</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_20</zorder>
+   <zorder>comboBox_2</zorder>
+   <zorder>line_2</zorder>
+   <zorder>checkBox_2</zorder>
+   <zorder>dial</zorder>
+   <zorder>len_4</zorder>
+   <zorder>label_21</zorder>
+   <zorder>label_22</zorder>
+   <zorder>spinBox_2</zorder>
+   <zorder>label_30</zorder>
+   <zorder>checkBox_4</zorder>
+   <zorder>spinBox_7</zorder>
+   <zorder>label_32</zorder>
+   <zorder>checkBox_5</zorder>
+   <zorder>label_36</zorder>
+   <zorder>label_39</zorder>
+   <zorder>len_7</zorder>
+   <zorder>label_40</zorder>
+   <zorder>line</zorder>
+   <zorder>label_41</zorder>
+   <zorder>spinBox_11</zorder>
+   <zorder>spinBox_10</zorder>
+   <zorder>label_38</zorder>
+   <zorder>spinBox_9</zorder>
+   <zorder>label_37</zorder>
+   <zorder>spinBox_12</zorder>
+   <zorder>spinBox_13</zorder>
+   <zorder>spinBox_14</zorder>
+   <zorder>label_42</zorder>
+   <zorder>label_43</zorder>
+   <zorder>label_44</zorder>
+   <zorder>label_45</zorder>
+   <zorder>line_8</zorder>
+   <zorder>line_9</zorder>
+   <zorder>comboBox_6</zorder>
+   <zorder>comboBox_7</zorder>
+   <zorder>label_24</zorder>
+   <zorder>line_11</zorder>
+   <zorder>line_6</zorder>
+   <zorder>line_12</zorder>
+   <zorder>label_102</zorder>
+   <zorder>renderStatusPlaceholder_3</zorder>
+   <zorder>line_4</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>label_177</zorder>
+   <zorder>spinBox_85</zorder>
+   <zorder>comboBox_50</zorder>
+   <zorder>label_183</zorder>
+   <zorder>comboBox_49</zorder>
+   <zorder>label_185</zorder>
+   <zorder>comboBox_48</zorder>
+   <zorder>label_184</zorder>
+   <zorder>spinBox_91</zorder>
+   <zorder>label_186</zorder>
+   <zorder>label_55</zorder>
+   <zorder>tabWidget</zorder>
   </widget>
  </widget>
  <resources/>
